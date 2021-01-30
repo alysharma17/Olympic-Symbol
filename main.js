@@ -1,0 +1,15 @@
+var c=document.getElementById("canvas");
+var ct=c.getContext("2d");
+ct.beginPath();
+ct.strokeStyle="red";
+lineWidth=5;
+ct.arc(250,210,40,0,2*Math.PI);
+ct.arc();
+ct.arc(300,210,40,0,2*Math.PI);
+ct.arc();
+ct.arc(350,210,40,0,2*Math.PI);
+ct.arc();
+ct.arc(275,210,40,0,2*Math.PI);
+ct.arc();
+ct.arc(325,210,40,0,2*Math.PI);
+ct.arc();
